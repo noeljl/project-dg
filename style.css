@@ -28,3 +28,10 @@ body {
     color: white;
 }
 
+@media (max-width: 767px){
+    .h2-custom-style {
+        color: #112D4E;
+        font-weight: 900;
+        font-size: 25px;
+    }
+}
