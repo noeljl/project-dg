@@ -34,4 +34,9 @@ body {
         font-weight: 900;
         font-size: 25px;
     }
+
+    .hero-image {
+        height:250px; 
+        object-fit: cover;
+    }
 }
