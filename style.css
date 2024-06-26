@@ -1,0 +1,30 @@
+body {
+    background-color: #F9F7F7;
+    font-family: 'Helvetica New', sans-serif;
+}
+
+.white-row {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.h2-custom-style {
+    color: #112D4E;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.p-custom-style {
+    font-size: 18px;
+    color: #112D4E;
+}
+
+.bt-jetzt-absichern {
+    background-color: #3F72AF;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+}
+
