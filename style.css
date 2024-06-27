@@ -4,7 +4,7 @@ body {
 }
 
 .white-row {
-    background-color: white;
+    background-color: #ffffffB3;
     border-radius: 20px;
 }
 
@@ -26,6 +26,21 @@ body {
     font-weight: bold;
     border: 0px;
     color: white;
+}
+
+.hr-custom {
+    width: 20%;
+    size: 4px;
+    color:#112D4E;
+}
+
+.list-background{
+    background-color: #DBE2EF66;
+    border-radius: 20px;
+    padding-top: 4px;
+    width: 30%;
+    margin-top: 10px;
+    
 }
 
 @media (max-width: 767px){
