@@ -55,3 +55,7 @@ body {
         object-fit: cover;
     }
 }
+
+.number, .text{
+    display: inline;
+}
