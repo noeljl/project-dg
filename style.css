@@ -100,6 +100,29 @@
     }
 }
 
+#price a {
+    border-radius: 10px;
+    border: 1px solid #3F72AF;
+    background-color: white;
+    color: #3F72AF;
+    font-weight: 400;
+}
+
+#price h2 {
+    color: #112D4E;
+}
+
+#price h3 {
+    color: #112D4E;
+}
+
+#price li {
+    color: #112D4E;
+    font-size: 1.20rem;
+}
+
+
+
 
 
 
