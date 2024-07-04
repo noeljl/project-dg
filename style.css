@@ -2,17 +2,18 @@
 .navbar {
     background-color: white;
     height: 80px;
-    margin: 5px;
+    margin: 10px;
     padding: 0.5rem;
     border-radius: 16px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
     font-size: 1.25rem;
 }
 
-.navbar-toggler:focus, .btn-close:focus {
+.navbar-toggler:focus,
+.btn-close:focus {
     box-shadow: none;
     outline: none;
 }
@@ -23,12 +24,13 @@
     position: relative;
 }
 
-.nav-link:hover, .nav-link:active {
+.nav-link:hover,
+.nav-link:active {
     color: #3F72AF;
 }
 
 @media (min-width: 991px) {
-    .nav-link::before{
+    .nav-link::before {
         content: "";
         position: absolute;
         bottom: 0;
@@ -41,10 +43,18 @@
         transition: 0.3s ease-in-out;
     }
 
-    .nav-link:hover::before, .nav-link:active::before{
+    .nav-link:hover::before,
+    .nav-link:active::before {
         width: 100%;
         visibility: visible;
     }
+}
+
+@media (max-width: 575px){
+    .navbar {
+            margin: 0px;
+            padding: 0.5rem;
+        }
 }
 
 /* Button: Jetzt absichern*/
@@ -63,17 +73,25 @@
     background-color: #4D88CF;
 }
 
+/*Styling of my rows*/
+.row {
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
 
 /*Old CSS Style*/
 
 body {
     background-color: #F9F7F7;
     /*font-family: 'Helvetica New', sans-serif;*/
-}
-
-.white-row {
-    background-color: #ffffffB3;
-    border-radius: 20px;
 }
 
 .h2-custom-style {
