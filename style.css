@@ -1,6 +1,69 @@
+/*Styling the nav bar*/
+.navbar {
+    background-color: white;
+    height: 80px;
+    margin: 5px;
+    padding: 0.5rem;
+    border-radius: 16px;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #112D4E;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #3F72AF;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #3F72AF;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link:active::before{
+        width: 100%;
+        visibility: visible;
+    }
+    
+}
+
+/* Styling Hero Section*/
+.hero-section {
+    background: url(./assets/images/couple-back-city_small.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+
+/*Old CSS Style*/
+
 body {
     background-color: #F9F7F7;
-    font-family: 'Helvetica New', sans-serif;
+    /*font-family: 'Helvetica New', sans-serif;*/
 }
 
 .white-row {
@@ -31,19 +94,19 @@ body {
 .hr-custom {
     width: 20%;
     size: 4px;
-    color:#112D4E;
+    color: #112D4E;
 }
 
-.list-background{
+.list-background {
     background-color: #DBE2EF66;
     border-radius: 20px;
     padding-top: 4px;
     width: 30%;
     margin-top: 10px;
-    
+
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     .h2-custom-style {
         color: #112D4E;
         font-weight: 900;
@@ -51,11 +114,12 @@ body {
     }
 
     .hero-image {
-        height:250px; 
+        height: 250px;
         object-fit: cover;
     }
 }
 
-.number, .text{
+.number,
+.text {
     display: inline;
 }
