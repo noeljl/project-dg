@@ -50,11 +50,11 @@
     }
 }
 
-@media (max-width: 575px){
+@media (max-width: 575px) {
     .navbar {
-            margin: 0px;
-            padding: 0.5rem;
-        }
+        margin: 0px;
+        padding: 0.5rem;
+    }
 }
 
 /* Button: Jetzt absichern*/
@@ -69,6 +69,10 @@
     transition: 0.3 background-color;
 }
 
+.btn-absichern-medium {
+    font-size: 1.25rem;
+}
+
 .btn-absichern:hover {
     background-color: #4D88CF;
 }
@@ -78,7 +82,23 @@
     background-color: #FFFFFF;
 }
 
+.steps>div {
+    background-color: #DBE2EF66;
+    border-radius: 20px;
+    padding: 8px 5px;
+    width: 60%;
+    margin-top: 15px;
+}
 
+@media (max-width: 767px) {
+    .steps>div {
+        background-color: #DBE2EF66;
+        border-radius: 20px;
+        padding: 8px 5px;
+        width: 100%;
+        margin-top: 15px;
+    }
+}
 
 
 
@@ -101,7 +121,7 @@ body {
 }
 
 .p-custom-style {
-    font-size: 18px;
+    font-size: 1.25rem;
     color: #112D4E;
 }
 
@@ -120,14 +140,7 @@ body {
     color: #112D4E;
 }
 
-.list-background {
-    background-color: #DBE2EF66;
-    border-radius: 20px;
-    padding-top: 4px;
-    width: 30%;
-    margin-top: 10px;
 
-}
 
 @media (max-width: 767px) {
     .h2-custom-style {
