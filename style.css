@@ -191,6 +191,11 @@ body {
     transition: all .3s ease-out;
 }
 
+/*Footer*/
+.rechtliches a {
+    color: #112D4E;
+    text-decoration: none;
+}
 /*Seperator footer*/
 @media (max-width: 991px) {
     .seperator {
