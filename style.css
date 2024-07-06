@@ -148,33 +148,12 @@ body {
     font-size: 1.20rem;
 }
 
-/*Seperator footer*/
-@media (max-width: 991px) {
-    .seperator {
-        width: 100%;
-        background-color: #112D4E;
-        height: 0.5px;
-    }
-}
-
-/*Bootstrap icon styling*/
-.bi {
-    color: #112D4E;
-    height: 100px;
-}
-
-.bi-file-earmark-arrow-down {
-    color: white;
-    font-weight: bold;
-}
-
 /*Styling 5 steps*/
 .rounded-list {
     counter-reset: li;
     /* Initiate a counter */
     list-style: none;
     padding: 0;
-    margin-bottom: 4em;
 }
 
 .rounded-list div {
@@ -210,4 +189,24 @@ body {
     font-weight: bold;
     border-radius: 2em;
     transition: all .3s ease-out;
+}
+
+/*Seperator footer*/
+@media (max-width: 991px) {
+    .seperator {
+        width: 100%;
+        background-color: #112D4E;
+        height: 0.5px;
+    }
+}
+
+/*Bootstrap icon styling*/
+.bi {
+    color: #112D4E;
+    height: 100px;
+}
+
+.bi-file-earmark-arrow-down {
+    color: white;
+    font-weight: bold;
 }
