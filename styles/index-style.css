@@ -1,0 +1,85 @@
+/*Styling of my rows*/
+.row {
+    background-color: #FFFFFF;
+}
+
+.steps>div {
+    background-color: #DBE2EF66;
+    border-radius: 20px;
+    padding: 8px 5px;
+    width: 60%;
+    margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+    .steps>div {
+        background-color: #DBE2EF66;
+        border-radius: 20px;
+        padding: 8px 5px;
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+#price a {
+    border-radius: 10px;
+    border: 1px solid #3F72AF;
+    background-color: white;
+    color: #3F72AF;
+    font-weight: 400;
+}
+
+#price h2 {
+    color: #112D4E;
+}
+
+#price h3 {
+    color: #112D4E;
+}
+
+#price li {
+    color: #112D4E;
+    font-size: 1.20rem;
+}
+
+/*Styling 5 steps*/
+.rounded-list {
+    counter-reset: li;
+    /* Initiate a counter */
+    list-style: none;
+    padding: 0;
+}
+
+.rounded-list div {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    background: #DBE2EF;
+    color: #112D4E;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;
+}
+
+.rounded-list div:hover {
+    background: #F9F7F7;
+}
+
+.rounded-list div:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #FFFFFF;
+    height: 2.5em;
+    width: 2.5em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
