@@ -62,8 +62,8 @@
     }
 }
 
-@media (max-width: 650px){
-    .hero-section{
+@media (max-width: 650px) {
+    .hero-section {
         margin-top: 2rem;
     }
 }
