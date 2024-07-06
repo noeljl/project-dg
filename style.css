@@ -1,3 +1,8 @@
+body {
+    background-color: #F9F7F7;
+    /*font-family: 'Helvetica New', sans-serif;*/
+}
+
 /*Styling the nav bar*/
 .navbar {
     background-color: white;
@@ -143,62 +148,66 @@
     font-size: 1.20rem;
 }
 
-
-
-
-
-
-
-
-/*Old CSS Style*/
-
-body {
-    background-color: #F9F7F7;
-    /*font-family: 'Helvetica New', sans-serif;*/
+/*Seperator footer*/
+@media (max-width: 991px) {
+    .seperator {
+        width: 100%;
+        background-color: #112D4E;
+        height: 0.5px;
+    }
 }
 
-.h2-custom-style {
+/*Bootstrap icon styling*/
+.bi {
     color: #112D4E;
-    font-weight: 900;
-    font-size: 35px;
+    height: 100px;
 }
 
-.p-custom-style {
-    font-size: 1.25rem;
-    color: #112D4E;
-}
-
-.bt-jetzt-absichern {
-    background-color: #3F72AF;
-    font-size: 18px;
-    border-radius: 20px;
-    font-weight: bold;
-    border: 0px;
+.bi-file-earmark-arrow-down {
     color: white;
+    font-weight: bold;
 }
 
-.hr-custom {
-    width: 20%;
-    size: 4px;
+/*Styling 5 steps*/
+.rounded-list {
+    counter-reset: li;
+    /* Initiate a counter */
+    list-style: none;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+.rounded-list div {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #DBE2EF;
     color: #112D4E;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;
 }
 
-
-
-@media (max-width: 767px) {
-    .h2-custom-style {
-        color: #112D4E;
-        font-weight: 900;
-        font-size: 25px;
-    }
-
-    .hero-image {
-        height: 250px;
-        object-fit: cover;
-    }
+.rounded-list div:hover {
+    background: #F9F7F7;
 }
 
-.number,
-.text {
-    display: inline;
+.rounded-list div:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #FFFFFF;
+    height: 2.5em;
+    width: 2.5em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
 }
