@@ -1,15 +1,30 @@
 body {
     background-color: #F9F7F7;
-    /*font-family: 'Helvetica New', sans-serif;*/
+    font-family: "Silka", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+
+}
+
+a {
+    font-size: 16px;
+}
+
+.p-custom {
+    font-size: 18px;
 }
 
 /*Styling the nav bar*/
 .navbar {
     background-color: white;
     height: 80px;
-    margin: 10px;
+    margin: 10px 112px;
     padding: 0.5rem;
     border-radius: 16px;
+    font-size: 16px;
+}
+
+.navbar a {
+    font-weight: 600;
 }
 
 .navbar-toggler {
@@ -56,9 +71,16 @@ body {
 }
 
 /*Navbar and Hero styling*/
+@media (max-width: 1199px) {
+    .navbar {
+        margin: 5px 12px;
+        padding: 0.5rem;
+    }
+}
+
 @media (max-width: 911px) {
     .navbar {
-        margin: 0px;
+        margin: 5px 12px;
         padding: 0.5rem;
     }
 
@@ -75,7 +97,7 @@ body {
 
 @media (max-width: 575px) {
     .navbar {
-        margin: 0px;
+        margin: 1px 12px;
         padding: 0.5rem;
     }
 
@@ -88,7 +110,7 @@ body {
 .btn-absichern {
     background: #3F72AF;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     padding: 8px 20px;
     border-radius: 50px;
@@ -97,7 +119,7 @@ body {
 }
 
 .btn-absichern-medium {
-    font-size: 1.25rem;
+    font-size: 18px;
 }
 
 .btn-absichern:hover {
@@ -109,6 +131,7 @@ body {
     color: #112D4E;
     text-decoration: none;
 }
+
 /*Seperator footer*/
 @media (max-width: 991px) {
     .seperator {
@@ -127,4 +150,23 @@ body {
 .bi-file-earmark-arrow-down {
     color: white;
     font-weight: bold;
+}
+
+/*Margin styling*/
+.margin-custom {
+    margin: 0px 100px;
+}
+
+@media (max-width: 1199px) {
+    .margin-custom {
+            margin: 0px 0px;
+        }
+}
+
+@media (max-width: 575px) {
+    
+    .btn-absichern {
+        font-size: 0.8rem;
+        width: auto;
+    }
 }
