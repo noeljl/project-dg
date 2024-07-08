@@ -3,6 +3,10 @@
     height: 7rem;
 }
 
-p, h1, h2, h3, li, ol, a, .update {
+p, h1, h2, h3, h4, h5, li, ol, a, .update {
     color: #112D4E;
+}
+
+a {
+    font-size: 18px;
 }
